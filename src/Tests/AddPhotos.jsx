@@ -14,9 +14,8 @@ const AddPhotos = () => {
     }
     return (
         <div>
-            <img src={logo} alt="none"
-                style={{
-                    width:"200px",
+            <img src={logo} alt="none
+                       height: "2000"
                     background:Background.pranav
                 }}
             />
