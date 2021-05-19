@@ -39,8 +39,8 @@ const [state, dispatch] = useReducer(reducer, initialState)
   return (
     <div>
       <UserContext.Provider value={{state:state, dispatch:dispatch}}>
-        {/* <Components /> */}
-        <AddPhotos />
+        <Components />
+        {/* <AddPhotos /> */}
       </UserContext.Provider>
     </div>
   );
